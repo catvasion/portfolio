@@ -5,6 +5,10 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:react/jsx-runtime',
     'plugin:react-hooks/recommended',
+    "rules", {   
+      "react/jsx-uses-react": "error",   
+      "react/jsx-uses-vars": "error" 
+ }
   ],
   parserOptions: { ecmaVersion: 'latest', sourceType: 'module' },
   settings: { react: { version: '18.2' } },
@@ -12,4 +16,6 @@ module.exports = {
   rules: {
     'react-refresh/only-export-components': 'warn',
   },
+
+  
 }
