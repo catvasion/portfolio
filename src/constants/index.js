@@ -1,6 +1,6 @@
 import {
     mobile,
-    backend,
+    react,
     creator,
     web,
     javascript,
@@ -15,14 +15,15 @@ import {
     git,
     figma,
     docker,
-    meta,
+    auxvivres,
+    ikea,
     starbucks,
-    tesla,
     shopify,
     gandalf_gh,
     jobit,
     tripguide,
     threejs,
+    chakra,
   } from "../assets";
   
   export const NavLinks = [
@@ -46,17 +47,9 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
-    },
-    {
-      title: "Backend Developer",
-      icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
+      title: "React JSX",
+      icon: react,
+    }
   ];
   
   const technologies = [
@@ -101,6 +94,10 @@ import {
       icon: threejs,
     },
     {
+      name: "Chakra UI",
+      icon: chakra,
+    },
+    {
       name: "git",
       icon: git,
     },
@@ -116,55 +113,61 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Logistics Operations Specialist",
+      company_name: "IKEA",
+      icon: ikea,
+      iconBg: "#005AA9",
+      date: "Sept 2022 - March 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Ensured safe and efficient movement of goods within a high-volume warehouse.",
+        "Recorded and tracked shipments using warehouse database systems.",
+        "Collaborated with team members to unload trucks and optimize storage space.",
+        "Resolved inventory discrepancies and maintained accurate stock levels.",
+        "Maintained a zero-accident record, prioritizing safety at all times.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Skateboard Instructor",
+      company_name: "Self-employed",
+      icon: starbucks,
       iconBg: "#E6DEDD",
       date: "Jan 2021 - Feb 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Managed classes of up to 20 students, providing instruction and guidance in skateboarding techniques.",
+        "Developed individualized course plans tailored to each student's skill level and goals.",
+        "Worked with high-school students in alternative learning streams, fostering a supportive and inclusive learning environment.",
+        "Ensured the safety and well-being of students by creating a safe and welcoming environment.",
+        "Handled administrative tasks such as accurately booking and following up with client appointments and producing receipts.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Shift Supervisor",
+      company_name: "Starbucks",
+      icon: starbucks,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Dec 2019 - Jul 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Fostered a positive work environment by enhancing employee performance and satisfaction through coaching, encouragement, and recognition.",
+        "Proactively problem-solved and resolved issues during shifts, ensuring a smooth and enjoyable customer experience.",
+        "Managed inventory efficiently, ensuring optimal stock levels and minimizing shortages or excesses.",
+        "Demonstrated exceptional customer service skills, resolving a wide range of issues promptly and thoughtfully to ensure customer satisfaction.",
+        "Organized inventory and utilized various technologies to streamline operations and maintain accurate records.",
+        
+      ],
+    },
+    {
+      title: "Shift Supervisor",
+      company_name: "Aux Vivres",
+      icon: auxvivres,
+      iconBg: "#E6DEDD",
+      date: "Sept 2018 - Aug 2019",
+      points: [
+        "Proactively addressed and resolved challenges during shifts to maintain a smooth operation.",
+        "Implemented effective inventory strategies to optimize stock levels and ensure timely product availability.",
+        "Utilized Excel for accurate data entry and maintenance of inventory records.",
+        "Created streamlined procedures to enhance operational efficiency and productivity.",
+        "Effectively resolved customer service issues, ensuring customer satisfaction and loyalty.",
+        
       ],
     },
   ];
@@ -207,13 +210,10 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "jsx",
           color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
+        }
+        // 
       ],
       image: gandalf_gh,
       source_code_link: "https://github.com/catvasion/",
@@ -221,18 +221,18 @@ import {
     {
       name: "Job IT",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that enables users to search for movies.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "typescript",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "chakra ui",
           color: "pink-text-gradient",
         },
       ],
