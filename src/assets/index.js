@@ -1,5 +1,5 @@
 import logo from "./logo_b.png";
-import backend from "./backend.png";
+import react from "./react.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
@@ -8,6 +8,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
+import chakra from "./tech/chakra.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
@@ -21,10 +22,10 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
+import auxvivres from "./company/auxvivres.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import ikea from "./company/ikea.png";
 
 import gandalf_gh from "./gandalf_gh.png";
 import jobit from "./jobit.png";
@@ -32,7 +33,7 @@ import tripguide from "./tripguide.png";
 
 export {
   logo,
-  backend,
+  react,
   creator,
   mobile,
   web,
@@ -52,11 +53,12 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
+  auxvivres,
   shopify,
   starbucks,
-  tesla,
+  ikea,
   gandalf_gh,
   jobit,
   tripguide,
+  chakra,
 };

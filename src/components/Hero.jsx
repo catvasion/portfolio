@@ -3,7 +3,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 
 import { styles } from '../styles'
-import { ComputersCanvas } from './canvas'
+
 const Hero = () => {
   return (
     <section className='relative w-full h-screen mx-auto block'>
@@ -18,8 +18,6 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>Hello, I am a London based <br className='sm: block hidden'/>front-end developer specialised in React.</p>
         </div>
       </div>
-      
-      <ComputersCanvas />
       
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
