@@ -50,14 +50,17 @@ const About = () => {
 coaching, and warehouse work, I bring a unique perspective to problem-solving and teamwork. Passionate about creating engaging 
 user experiences and staying at the forefront of web development trends. A motivated self-learner with a strong drive for 
 continuous improvement. If you're seeking a dedicated front-end developer who can deliver exceptional results, please reach out. */}
-
-Enthusiastic and self-taught front-end developer with a solid foundation in pure and applied sciences. Recently completed a 
-comprehensive front-end development certificate through Coursera, acquiring skills in JavaScript, HTML, CSS, and React. 
-Additionally, I have an understanding with TypeScript and have worked with popular React libraries such as Chakra UI and Three.js. 
-Although my formal education was interrupted by a life event, my passion for coding led me to embark on a journey of self-learning 
-and project-based experience. Through various personal projects, I have honed my skills in building responsive and visually 
-appealing web applications. I thrive on challenging problems and enjoy leveraging creativity to deliver intuitive user experiences. 
-With a strong drive for continuous learning, I am eager to contribute to innovative projects as a front-end developer.
+I'm an enthusiastic and self-taught front-end developer with a strong foundation in pure and applied sciences. Recently, I completed 
+a comprehensive front-end development certificate through Coursera, gaining expertise in JavaScript, HTML, CSS, and React. I also have 
+experience working with TypeScript and popular React libraries such as Chakra UI and Three.js.
+<br/><br/>
+My passion for coding has driven me to embark on a journey of self-learning and project-based experience. Through various personal 
+projects, I have honed my skills in building responsive and visually appealing web applications. I thrive on tackling challenging
+problems and leveraging my creativity to deliver intuitive user experiences.
+ <br/><br/>
+ I am now eager to join a forward-thinking team where I can contribute to innovative projects, continuously learn new tech skills, 
+ embrace exciting challenges, and grow as a developer. It is important to me to be part of a supportive culture that encourages personal 
+ and professional development.
 
 </motion.p>
 

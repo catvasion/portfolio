@@ -15,12 +15,18 @@ module.exports = {
       boxShadow: {
         card: "0px 35px 320px -15px #211e35",
       },
-      screens: {
-        xs: "450px",
+      // screens: {
+      //   xs: "450px",
         
-      },
+      // },
+      // backgroundSize: {
+      //   "bg-fixed",
+      //   "bg-cover",
+      // },
       backgroundImage: {
         "hero-pattern": "url('/src/assets/spacebg.jpeg')",
+      
+        // height: "50vh",
       },
       // spacing: {
       //   maxHeight:100,
