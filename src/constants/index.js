@@ -41,17 +41,6 @@ import {
     },
   ];
   
-  const services = [
-    {
-      title: "Web Developer",
-      icon: web,
-    },
-    {
-      title: "React JSX",
-      icon: react,
-    }
-  ];
-  
   const technologies = [
     {
       name: "HTML 5",
@@ -262,4 +251,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { technologies, experiences, testimonials, projects };

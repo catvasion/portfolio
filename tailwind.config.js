@@ -5,12 +5,20 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#050816",
-        secondary: "#aaa6c3",
-        tertiary: "#151030",
-        "black-100": "#100d25",
-        "black-200": "#090325",
-        "white-100": "#f3f3f3",
+        primary: "#d6e815", // Light gray
+        secondary: "#3F3F3F", // Medium gray
+        tertiary: "#A8A8A8", // Dark gray
+        "black-100": "#3F3F3F", // Original dark color
+        "black-200": "#848484", // Lighter gray
+        "white-100": "#FFFFFF", // White color
+        
+        
+        // primary: "#F6F6F6", // Pale hue
+        // secondary: "#ECECEC", // Pale hue
+        // tertiary: "#F2F2F2", // Pale hue
+        // "black-100": "#3F3F3F", // Dark color
+        // "black-200": "#F8F8F8", // Pale hue
+        // "white-100": "#FFFFFF", // White color
       },
       boxShadow: {
         card: "0px 35px 320px -15px #211e35",
@@ -24,9 +32,9 @@ module.exports = {
       //   "bg-cover",
       // },
       backgroundImage: {
-        "hero-pattern": "url('/src/assets/spacebg.jpeg')",
-      
-        // height: "50vh",
+        "hero-pattern": "url('/src/assets/disaster.jpg')",
+        "hero-pattern-medium": "url('/src/assets/disaster_md.jpg')",
+        "hero-pattern-mobile": "url('/src/assets/disaster_md.jpg')",
       },
       // spacing: {
       //   maxHeight:100,
