@@ -28,6 +28,7 @@ import auxvivres from "./company/auxvivres.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import ikea from "./company/ikea.png";
+import helmet from "./company/helmet.png"
 
 import gandalf_gh from "./gandalf_gh.png";
 import jobit from "./jobit.png";
@@ -60,6 +61,7 @@ export {
   shopify,
   starbucks,
   ikea,
+  helmet,
   gandalf_gh,
   jobit,
   tripguide,
