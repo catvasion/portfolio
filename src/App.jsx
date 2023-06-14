@@ -5,23 +5,38 @@ import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, Stars
 const App = () => {
   return (
     <BrowserRouter>
-      <div className='relative z-0 bg-primary'>
-        <div className='bg-hero-pattern bg-center bg-fixed bg-cover py-40'>
-          <Navbar />
-          <Hero />
-        </div>
-        <About />
-        <Experience />
-        <Tech />
-        <Works />
-        {/* <Feedbacks /> */}
-        <div className='relative z-0'>
-          <Contact />
-          <StarsCanvas />
-        </div>
+    <div className='relative z-0 bg-primary'>
+      <div className='bg-hero-pattern-mobile sm:bg-hero-pattern-medium bg-cover bg-top lg:bg-hero-pattern py-40 bg-center bg-no-repeat bg-fixed'
+>
+      {/* 'bg-hero-pattern bg-center bg-bottom bg-no-repeat bg-auto py-40 bg-auto' */}
+
+        {/* Pseudo-element for the grayscale filter */}
+        {/* <div className='relative'>
+          <div className='bg-hero-pattern bg-center bg-fixed bg-bottom bg-no-repeat py-40 filter grayscale h-[20vh]'></div>
+        </div> */}
+        
+        <Navbar />
+        <Hero />
       </div>
-    </BrowserRouter>
+      {/* Rest of the components */}
+      {/* <div className="bg-white"> */}
+      <Tech />
+      <Works />
+      <Experience />
+      <About />
+      {/* </div> */}
+      
+      
+      {/* <Feedbacks /> */}
+      <div className='relative z-0 bg-[#363636]'>
+        <Contact />
+        <StarsCanvas />
+      </div>
+      
+    </div>
+  </BrowserRouter>
+  
   );
 }
 
-export default App;
+export default App

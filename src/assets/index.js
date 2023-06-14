@@ -1,3 +1,5 @@
+import profile from "./profile.jpg"
+
 import logo from "./logo_b.png";
 import react from "./react.png";
 import creator from "./creator.png";
@@ -32,6 +34,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  profile,
   logo,
   react,
   creator,
