@@ -12,11 +12,11 @@ import { profile } from '../assets'
 
 const About = () => {
   return (
-    <section className='flex '>
+    <section className='flex flex-col'>
     <div className='p-10'>
     <motion.div variants={textVariant()}>
-      <p className={styles.sectionSubText}>Intro.</p>
-      <h2 className={styles.sectionHeadText}>Overview.</h2>
+      <p className={styles.sectionSubText}></p>
+      <h2 className={styles.sectionHeadText}>About me.</h2>
     </motion.div>
 
     <motion.p
@@ -42,8 +42,8 @@ problems and leveraging my creativity to deliver intuitive user experiences.
 </motion.p>
 </div>
 
-<div className='p-10 flex align-items w-[30%]'>
-  <img src={ profile } className='rounded grayscale object-cover h-[70%] '/>
+<div className='p-20 flex justify-center items-center w-[100%]'>
+  <img src={ profile } className='rounded grayscale object-cover h-[70%] lg:w-[70%]'/>
 </div>
     
     </section>

@@ -20,17 +20,19 @@ const App = () => {
       </div>
       {/* Rest of the components */}
       {/* <div className="bg-white"> */}
-      <About />
-      
-      <Experience />
-      {/* </div> */}
       <Tech />
       <Works />
+      <Experience />
+      <About />
+      {/* </div> */}
+      
+      
       {/* <Feedbacks /> */}
       <div className='relative z-0 bg-[#363636]'>
         <Contact />
         <StarsCanvas />
       </div>
+      
     </div>
   </BrowserRouter>
   
