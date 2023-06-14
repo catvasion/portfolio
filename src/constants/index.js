@@ -19,6 +19,7 @@ import {
     ikea,
     starbucks,
     shopify,
+    helmet,
     gandalf_gh,
     jobit,
     tripguide,
@@ -118,8 +119,8 @@ import {
     {
       title: "Skateboard Instructor",
       company_name: "Self-employed",
-      icon: starbucks,
-      iconBg: "#E6DEDD",
+      icon: helmet,
+      iconBg: "#00817B",
       date: "Jan 2021 - Feb 2022",
       points: [
         "Managed classes of up to 20 students, providing instruction and guidance in skateboarding techniques.",
@@ -133,7 +134,7 @@ import {
       title: "Shift Supervisor",
       company_name: "Starbucks",
       icon: starbucks,
-      iconBg: "#E6DEDD",
+      iconBg: "#326E36",
       date: "Dec 2019 - Jul 2022",
       points: [
         "Fostered a positive work environment by enhancing employee performance and satisfaction through coaching, encouragement, and recognition.",
@@ -148,7 +149,7 @@ import {
       title: "Shift Supervisor",
       company_name: "Aux Vivres",
       icon: auxvivres,
-      iconBg: "#E6DEDD",
+      iconBg: "#EC3D38",
       date: "Sept 2018 - Aug 2019",
       points: [
         "Proactively addressed and resolved challenges during shifts to maintain a smooth operation.",
