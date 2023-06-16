@@ -5,8 +5,8 @@ import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, Stars
 const App = () => {
   return (
     <BrowserRouter>
-    <div className='relative z-0 bg-primary'>
-      <div className='bg-hero-pattern-mobile sm:bg-hero-pattern-medium bg-cover bg-top lg:bg-hero-pattern py-40 bg-center bg-no-repeat bg-fixed'
+    <div className='bg-primary '>
+      <div className='bg-hero-pattern-mobile sm:bg-hero-pattern-medium bg-cover bg-top lg:bg-hero-pattern py-40 bg-center bg-no-repeat bg-fixed '
 >
       {/* 'bg-hero-pattern bg-center bg-bottom bg-no-repeat bg-auto py-40 bg-auto' */}
 
@@ -18,13 +18,12 @@ const App = () => {
         <Navbar />
         <Hero />
       </div>
-      {/* Rest of the components */}
-      {/* <div className="bg-white"> */}
+      
       <Tech />
       <Works />
       <Experience />
       <About />
-      {/* </div> */}
+      
       
       
       {/* <Feedbacks /> */}
