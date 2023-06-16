@@ -12,6 +12,9 @@ module.exports = {
         "black-200": "#848484", // Lighter gray
         "white-100": "#FFFFFF", // White color
         
+        "gradient-black": {
+          DEFAULT: "linear-gradient(to right, #434343, #000000)", // Gradient black
+        },
         
         // primary: "#F6F6F6", // Pale hue
         // secondary: "#ECECEC", // Pale hue
