@@ -30,9 +30,11 @@ import starbucks from "./company/starbucks.png";
 import ikea from "./company/ikea.png";
 import helmet from "./company/helmet.png"
 
-import gandalf_gh from "./gandalf_gh.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import gandalf from "./gandalf.png";
+import cineverse_l from "./cineverse_l.png"
+import cineverse_d from "./cineverse_d.png"
+import luckyshrub from "./luckyshrub.png"
+
 
 export {
   profile,
@@ -62,8 +64,10 @@ export {
   starbucks,
   ikea,
   helmet,
-  gandalf_gh,
-  jobit,
-  tripguide,
+  gandalf,
+  cineverse_l,
+  cineverse_d,
+  luckyshrub,
+  
   chakra,
 };

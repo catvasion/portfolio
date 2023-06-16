@@ -20,11 +20,13 @@ import {
     starbucks,
     shopify,
     helmet,
-    gandalf_gh,
-    jobit,
-    tripguide,
+    gandalf,
+    cineverse_d,
+    cineverse_l,
+    luckyshrub,
     threejs,
     chakra,
+
   } from "../assets";
   
   export const NavLinks = [
@@ -162,38 +164,13 @@ import {
     },
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
+
   
   const projects = [
     {
-      name: "Personl Profile",
+      name: "Entrepreneurial Hub",
       description:
-        "Web-based platform that allows users to enter the fantasy world of LOTR.",
+      "Middle-earth's Entrepreneurial Hub, guided by Gandalf, inspires entrepreneurial success. Join us to unlock your business's potential in a world of magic and innovation.",
       tags: [
         {
           name: "react",
@@ -205,13 +182,13 @@ import {
         }
         // 
       ],
-      image: gandalf_gh,
+      image: gandalf,
       source_code_link: "https://github.com/catvasion/",
     },
     {
-      name: "Job IT",
+      name: "CINEVERSE",
       description:
-        "Web application that enables users to search for movies.",
+      "Stay Connected To The Silver Screen: Find movies, TV shows, and video games effortlessly. Customize your experience with dark mode. Dive into the world of entertainment.",
       tags: [
         {
           name: "react",
@@ -226,30 +203,29 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: cineverse_l,
       source_code_link: "https://github.com/catvasion/",
     },
     {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      name: "Lucky Shrub",
+      description: "The Lucky Shrub website showcases a garden design firm based in Tucson, Arizona. It offers services in garden design, landscaping, and maintenance. The website presents their expertise in transforming spaces into beautiful and inviting gardens.",
       tags: [
         {
-          name: "nextjs",
+          name: "html",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "css",
           color: "green-text-gradient",
         },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
+        // {
+        //   name: "coursera",
+        //   color: "pink-text-gradient",
+        // },
       ],
-      image: tripguide,
+      image: luckyshrub,
       source_code_link: "https://github.com/catvasion/",
     },
   ];
   
-  export { technologies, experiences, testimonials, projects };
+  export { technologies, experiences, projects };

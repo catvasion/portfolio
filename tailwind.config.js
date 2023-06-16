@@ -36,6 +36,15 @@ module.exports = {
         "hero-pattern-medium": "url('/src/assets/disaster_md.jpg')",
         "hero-pattern-mobile": "url('/src/assets/disaster_md.jpg')",
       },
+      animation: {
+        'conveyor-belt': 'conveyor-belt 20s linear infinite',
+      },
+      keyframes: {
+        'conveyor-belt': {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+      },
       // spacing: {
       //   maxHeight:100,
       // }
