@@ -28,7 +28,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link})
       whileTap={{ scale: 0.95 }}
       className="rounded-xl overflow-hidden "
     >
-      <img src={image} alt={name} className="w-full  object-contain border border-secondary border-[25px] bg-secondary rounded-xl-secondary" />
+      <img src={image} alt={name} className="w-full  object-contain border border-gradient-black border-[20px] bg-secondary rounded-xl-secondary" />
       </motion.div>
       </Tilt>
       
