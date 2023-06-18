@@ -12,7 +12,7 @@ import { profile } from '../assets'
 
 const About = () => {
   return (
-    <section className='flex flex-col'>
+    <section className='flex flex-col lg:flex-row'>
     <div className='p-10'>
     <motion.div variants={textVariant()}>
       <p className={styles.sectionSubText}></p>
@@ -43,7 +43,7 @@ problems and leveraging my creativity to deliver intuitive user experiences.
 </div>
 
 <div className='p-20 flex justify-center items-center w-[100%]'>
-  <img src={ profile } className='rounded grayscale object-cover h-[70%] lg:w-[70%]'/>
+  <img src={ profile } className='rounded-lg grayscale object-cover'/>
 </div>
     
     </section>
