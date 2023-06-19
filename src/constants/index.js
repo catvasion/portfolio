@@ -30,13 +30,14 @@ import {
   } from "../assets";
   
   export const NavLinks = [
-    {
-      id: "about",
-      title: "About",
-    },
+
     {
       id: "work",
       title: "Work",
+    },
+    {
+      id: "about",
+      title: "About",
     },
     {
       id: "contact",
