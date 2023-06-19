@@ -4,7 +4,7 @@ import { technologies } from '../constants'
 
 const Tech = () => {
   return (
-    <div className='flex felx-row flex-wrap justify-center gap-10'>
+    <div className='flex felx-row flex-wrap justify-center gap-10 mt-20'>
       {technologies.map((technology) => (
         <div 
           className='w-28 h-28' 
@@ -18,4 +18,4 @@ const Tech = () => {
   )
 }
 
-export default SectionWrapper(Tech, "")
+export default SectionWrapper(Tech, "tech")
