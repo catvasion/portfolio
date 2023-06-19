@@ -15,7 +15,7 @@ const About = () => {
     <section className='flex flex-col lg:flex-row'>
     <div className='p-10'>
     <motion.div variants={textVariant()}>
-      <p className={styles.sectionSubText}></p>
+      <p className={styles.sectionSubText}>Overview</p>
       <h2 className={styles.sectionHeadText}>About me.</h2>
     </motion.div>
 

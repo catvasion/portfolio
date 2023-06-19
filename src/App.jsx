@@ -27,7 +27,7 @@ const App = () => {
       
       
       {/* <Feedbacks /> */}
-      <div className='relative z-0 bg-[#363636]'>
+      <div className='relative z-0 bg-black-300'>
         <Contact />
         <StarsCanvas />
       </div>
