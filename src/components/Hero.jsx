@@ -56,7 +56,7 @@ const Hero = () => {
       onMouseEnter={handleHoverStart}
       onMouseLeave={handleHoverEnd}>
         {/* div padding: 100px 0 0px 0; */}
-        <a href='#about'>
+        <a href='#tech'>
           <div 
             className= 'w-[35px] h-[64px] rounded-3xl border-4 border-primary flex justify-center items-start p-2'
             
