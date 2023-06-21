@@ -1,11 +1,15 @@
 import profile from "./profile.jpg"
 
-import logo from "./logo_b.png";
+import logo from "./logo1.png";
 import react from "./react.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import github_nav from "./github_nav.png"
+import github_white from "./github_nav_white.png"
+import linkedin_white from "./linkedin_white.png"
+import linkedin from "./linkedin.png"
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -44,6 +48,10 @@ export {
   mobile,
   web,
   github,
+  github_nav,
+  github_white,
+  linkedin,
+  linkedin_white,
   menu,
   close,
   css,
