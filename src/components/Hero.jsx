@@ -40,7 +40,7 @@ const Hero = () => {
         {/* div padding-top: 250px;
             padding-bottom: 250px;
             margin-bottom: 100px; */}
-        <div className='bg-black bg-opacity-40 rounded'>
+        <div className='bg-black-300 bg-opacity-70 rounded'>
           <div className='p-9'>
           <h1 className={`${styles.heroHeadText} mb-6 text-white`}>Hi, I'm <span className='pink-text-gradient font-bold'>Emily</span></h1>
           {/* h1 margin-bottom: 20px;

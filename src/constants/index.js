@@ -26,9 +26,15 @@ import {
     luckyshrub,
     threejs,
     chakra,
+    github,
+    github_nav,
+    linkedin_white,
+    linkedin,
 
   } from "../assets";
-  
+
+
+
   export const NavLinks = [
 
     {
@@ -44,6 +50,7 @@ import {
       title: "Contact",
     },
   ];
+
   
   const technologies = [
     {
@@ -103,6 +110,21 @@ import {
     //   icon: docker,
     // },
   ];
+
+  const socials = [
+    {
+      icon: linkedin,
+      hover: linkedin_white,
+      company: "Linkedin",
+      url:"https://www.linkedin.com/in/em-dawson/",
+    },
+    {
+      icon: github_nav,
+      hover:github,
+      company:"Github",
+      url:"https://github.com/catvasion",
+    },
+  ]
   
   const experiences = [
     {
@@ -229,4 +251,4 @@ import {
     },
   ];
   
-  export { technologies, experiences, projects };
+  export { technologies, socials, experiences, projects };

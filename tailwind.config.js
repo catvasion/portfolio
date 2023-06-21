@@ -4,6 +4,9 @@ module.exports = {
   mode: "jit",
   theme: {
     extend: {
+      filter: {
+        grayscale: "grayscale(100%)",
+      },
       colors: {
         primary: "#d6e815", // yellow
         secondary: "#3F3F3F", // Medium gray
@@ -28,11 +31,31 @@ module.exports = {
       boxShadow: {
         card: "0px 35px 320px -15px #211e35",
       },
+      // screens: {
+      //   xs: "450px",
+        
+      // },
+      // backgroundSize: {
+      //   "bg-fixed",
+      //   "bg-cover",
+      // },
       backgroundImage: {
         "hero-pattern": "url('/src/assets/disaster.jpg')",
         "hero-pattern-medium": "url('/src/assets/disaster_md.jpg')",
         "hero-pattern-mobile": "url('/src/assets/disaster_md.jpg')",
       },
+      animation: {
+        'conveyor-belt': 'conveyor-belt 20s linear infinite',
+      },
+      keyframes: {
+        'conveyor-belt': {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+      },
+      // spacing: {
+      //   maxHeight:100,
+      // }
       
     },
   },

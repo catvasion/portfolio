@@ -7,6 +7,7 @@ import Experience from './Experience';
 import Works from './Works';
 import Feedbacks from './Feedbacks';
 import Contact from './Contact';
+import Header from './Header';
 
 export {
   Hero,
@@ -19,5 +20,6 @@ export {
   Contact,
   StargateCanvas, 
   BallCanvas,  
-  StarsCanvas
+  StarsCanvas,
+  Header,
 }

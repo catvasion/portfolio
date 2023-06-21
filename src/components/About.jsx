@@ -42,7 +42,7 @@ problems and leveraging my creativity to deliver intuitive user experiences.
 </motion.p>
 </div>
 
-<div className='p-20 flex justify-center items-center w-[100%]'>
+<div className='p-10 md:p-32 lg:p-20 flex justify-center items-center w-[100%]'>
   <img src={ profile } className='rounded-lg grayscale object-cover'/>
 </div>
     
