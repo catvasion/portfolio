@@ -16,6 +16,7 @@ module.exports = {
         "black-300": "#000000",
         "black-200": "#848484", // Lighter gray
         "white-100": "#FFFFFF", // White color
+        ivory: "#FFFFE0",
 
         "gradient-black": {
           DEFAULT: "linear-gradient(to right, #434343, #000000)", // Gradient black
@@ -31,14 +32,6 @@ module.exports = {
       boxShadow: {
         card: "0px 35px 320px -15px #211e35",
       },
-      // screens: {
-      //   xs: "450px",
-
-      // },
-      // backgroundSize: {
-      //   "bg-fixed",
-      //   "bg-cover",
-      // },
       backgroundImage: {
         "hero-pattern": "url('/src/assets/disaster.jpg')",
         "hero-pattern-medium": "url('/src/assets/disaster_md.jpg')",
@@ -53,9 +46,6 @@ module.exports = {
           "100%": { transform: "translateX(-100%)" },
         },
       },
-      // spacing: {
-      //   maxHeight:100,
-      // }
     },
   },
   plugins: [],

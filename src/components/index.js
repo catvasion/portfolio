@@ -1,4 +1,4 @@
-import { StargateCanvas, BallCanvas, StarsCanvas } from "./canvas";
+import { StargateCanvas, BallImage, StarsCanvas } from "./canvas";
 import Hero from "./Hero";
 import Navbar from "./Navbar";
 import About from "./About";
@@ -17,7 +17,7 @@ export {
   Works,
   Contact,
   StargateCanvas,
-  BallCanvas,
+  BallImage,
   StarsCanvas,
   Header,
 };

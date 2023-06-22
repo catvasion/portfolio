@@ -121,7 +121,7 @@ const Contact = () => {
 
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
-        className="xl:flex-1 xl:h-auto md:h-[250px] h-[250px]"
+        className="xl:flex-1 xl:h-auto md:h-[250px] h-[250px] "
       >
         <StargateCanvas />
       </motion.div>
