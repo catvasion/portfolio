@@ -1,5 +1,6 @@
-import { BrowserRouter } from "react-router-dom";
 import React, { useState, useEffect } from "react";
+import { BrowserRouter } from "react-router-dom";
+import { useProgress } from "@react-three/drei";
 
 import {
   About,
@@ -11,15 +12,34 @@ import {
   Works,
   StarsCanvas,
   Header,
+  HeroLoader,
 } from "./components";
 
 const App = () => {
+  const [isLoading, setIsLoading] = useState(true);
+  const { progress } = useProgress();
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 500);
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <BrowserRouter>
       <div className="bg-primary ">
-        <div>
-          <Header />
-        </div>
+        <Navbar />
+        {isLoading ? (
+          <div className="h-screen flex justify-center items-center">
+            <HeroLoader progress={progress} />
+          </div>
+        ) : (
+          <div className="bg-hero-pattern-mobile bg-cover bg-top lg:bg-hero-pattern py-40 bg-center bg-no-repeat bg-fixed">
+            <Hero />
+          </div>
+        )}
 
         <div className="">
           {/* Render <Tech /> only on large screens */}

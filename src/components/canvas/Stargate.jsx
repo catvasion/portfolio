@@ -2,8 +2,6 @@ import { Suspense, useState, useEffect } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
-import ScrollableCanvas from "./ScrollableCanvas";
-
 import Loader from "../Loader";
 
 const Stargate = () => {
