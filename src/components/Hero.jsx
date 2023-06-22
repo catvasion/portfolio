@@ -55,7 +55,7 @@ const Hero = () => {
         onMouseLeave={handleHoverEnd}
       >
         <a href="#tech">
-          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-primary flex justify-center items-start p-2">
+          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-primary flex justify-center items-start p-2 lg:mb-10">
             <motion.div
               animate={isHovered ? "hovered" : "notHovered"}
               variants={animationVariants}

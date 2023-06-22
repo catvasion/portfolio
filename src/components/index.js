@@ -7,6 +7,7 @@ import Experience from "./Experience";
 import Works from "./Works";
 import Contact from "./Contact";
 import Header from "./Header";
+import HeroLoader from "./HeroLoader";
 
 export {
   Hero,
@@ -20,4 +21,5 @@ export {
   BallImage,
   StarsCanvas,
   Header,
+  HeroLoader,
 };
