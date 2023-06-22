@@ -1,5 +1,7 @@
 import StargateCanvas from "./Stargate";
-import BallCanvas from "./Ball";
+import BallImage from "./Ball";
 import StarsCanvas from "./Stars";
 
-export { StargateCanvas, BallCanvas, StarsCanvas };
+import ScrollableCanvas from "./ScrollableCanvas";
+
+export { StargateCanvas, BallImage, StarsCanvas, ScrollableCanvas };

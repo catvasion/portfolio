@@ -21,7 +21,10 @@ const App = () => {
           <Header />
         </div>
 
-        <Tech />
+        <div className="">
+          {/* Render <Tech /> only on large screens */}
+          <Tech />
+        </div>
         <Works />
         <Experience />
         <About />
