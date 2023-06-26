@@ -65,5 +65,5 @@ Social
 ## Acknowledgements
 
 ```sh
---Guidance for stucture and ideas from (https://github.com/adrianhajdin/project_3D_developer_portfolio), thank you!
+-- Guidance for stucture and ideas from (https://github.com/adrianhajdin/project_3D_developer_portfolio), thank you!
 ```
