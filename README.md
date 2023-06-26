@@ -43,12 +43,6 @@ This portfolio is divided into several sections to showcase my work and skills:
 **About Me**: Learn more about me, my background, and my interests.
 **Contact**: Get in touch with me through email or connect with me on social media platforms.
 
-About
-
-Contact
-
-Social
-
 ## Credits
 
 ```sh
