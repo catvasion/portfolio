@@ -30,7 +30,7 @@ src/ # source dir
 -hoc/
 -utils/
 ```
-
+```sh
 Sections:
 
 This portfolio is divided into several sections to showcase my work and skills:
@@ -42,7 +42,7 @@ This portfolio is divided into several sections to showcase my work and skills:
 **Experience**: Find details about my professional experience, including past companies, roles, and responsibilities.
 **About Me**: Learn more about me, my background, and my interests.
 **Contact**: Get in touch with me through email or connect with me on social media platforms.
-
+```
 ## Credits
 
 ```sh
