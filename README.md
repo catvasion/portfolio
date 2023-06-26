@@ -36,7 +36,7 @@ Sections:
 This portfolio is divided into several sections to showcase my work and skills:
 
 
-**Home**: Welcome to my home page where I have links to sections in my porfolio and social links to where you can contact me.
+*Home*: Welcome to my home page where I have links to sections in my porfolio and social links to where you can contact me.
 **Skills**: Discover the programming languages, frameworks, and tools I am proficient in.
 **Projects**: Explore the projects I have worked on, including descriptions, screenshots, and links to live demos or repositories.
 **Experience**: Find details about my professional experience, including past companies, roles, and responsibilities.
