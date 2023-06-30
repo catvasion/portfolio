@@ -81,13 +81,13 @@ const socials = [
     icon: linkedin,
     hover: linkedin_white,
     company: "Linkedin",
-    url: "https://www.linkedin.com/in/em-dawson/",
+    url: `${import.meta.env.VITE_LINKEDIN_URL}`,
   },
   {
     icon: github_nav,
     hover: github,
     company: "Github",
-    url: "https://github.com/catvasion",
+    url: `${import.meta.env.VITE_GITHUB_URL}`,
   },
 ];
 
@@ -166,7 +166,7 @@ const projects = [
       },
     ],
     image: gandalf,
-    source_code_link: "https://github.com/catvasion/",
+    source_code_link: `${import.meta.env.Github_entrepreneurialhub}`,
   },
   {
     name: "CINEVERSE",
@@ -187,25 +187,25 @@ const projects = [
       },
     ],
     image: cineverse_l,
-    source_code_link: "https://github.com/catvasion/",
+    source_code_link: `${import.meta.env.Github_cineverse}`,
   },
-  {
-    name: "Lucky Shrub",
-    description:
-      "The Lucky Shrub website showcases a garden design firm based in Tucson, Arizona. It offers services in garden design, landscaping, and maintenance. The website presents their expertise in transforming spaces into beautiful and inviting gardens.",
-    tags: [
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-    ],
-    image: luckyshrub,
-    source_code_link: "https://github.com/catvasion/",
-  },
+  // {
+  //   name: "Lucky Shrub",
+  //   description:
+  //     "The Lucky Shrub website showcases a garden design firm based in Tucson, Arizona. It offers services in garden design, landscaping, and maintenance. The website presents their expertise in transforming spaces into beautiful and inviting gardens.",
+  //   tags: [
+  //     {
+  //       name: "html",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: luckyshrub,
+  //   source_code_link: `${process.env.}`,
+  // },
 ];
 
 export { technologies, socials, experiences, projects };

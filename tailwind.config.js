@@ -7,6 +7,9 @@ module.exports = {
       filter: {
         grayscale: "grayscale(100%)",
       },
+      before: {
+        content: "''",
+      },
       colors: {
         primary: "#d6e815", // yellow
         secondary: "#3F3F3F", // Medium gray

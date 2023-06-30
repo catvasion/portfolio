@@ -5,7 +5,7 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import Loader from "../Loader";
 
 const Stargate = () => {
-  const stargate = useGLTF("./stargate/scene.gltf");
+  const { scene } = useGLTF("./stargate/scene.gltf");
 
   return (
     <mesh>
@@ -20,7 +20,7 @@ const Stargate = () => {
         shadow-mapSize={1024}
       />
       <primitive
-        object={stargate.scene}
+        object={scene}
         scale={1.5}
         position-y={0}
         rotation-y={0}

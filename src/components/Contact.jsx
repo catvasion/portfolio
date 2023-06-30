@@ -29,16 +29,16 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_71smzjh",
-        "template_tpoeopj",
+        `${import.meta.env.VITE_EMAILJS_SERVICE_TOKEN}`,
+        `${import.meta.env.VITE_TEMPLATE_TOKEN}`,
         {
           from_name: form.name,
           to_name: "Emily",
           from_email: form.email,
-          to_email: "e.react.dev@gmail.com",
+          to_email: `${import.meta.env.VITE_EMAIL_ADDRESS}`,
           message: form.message,
         },
-        "QQF-ay1-qCZW_FkWj"
+        `${import.meta.env.VITE_EMAILJS_PUBLIC_TOKEN}`
       )
       .then(
         () => {
