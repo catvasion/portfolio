@@ -166,7 +166,8 @@ const projects = [
       },
     ],
     image: gandalf,
-    source_code_link: `${import.meta.env.Github_entrepreneurialhub}`,
+    source_code_link: `${import.meta.env.VITE_GITHUB_ENTREPRENEURIAL_HUB_URL}`,
+    gh_pages_link: `${import.meta.env.VITE_GH_PAGES_ENTREPRENEURIAL_HUB_URL}`,
   },
   {
     name: "CINEVERSE",
@@ -187,7 +188,8 @@ const projects = [
       },
     ],
     image: cineverse_l,
-    source_code_link: `${import.meta.env.Github_cineverse}`,
+    source_code_link: `${import.meta.env.VITE_GITHUB_CINEVERSE_URL}`,
+    gh_pages_link: `${import.meta.env.VITE_GH_PAGES_CINEVERSE_URL}`,
   },
   // {
   //   name: "Lucky Shrub",
