@@ -74,7 +74,7 @@ const ProjectCard = ({
               onClick={() => window.open(gh_pages_link, "_blank")}
               className="flex flex-row justify-space-between mt-4 items-center cursor-pointer hover:opacity-40 active:opacity-30 transition-opacity duration-150 text-white-100  "
             >
-              <p className="flex mr-3">Live Demo</p>
+              <p className="flex mr-2">Live Demo</p>
               <FaArrowRight />
             </div>
           </div>
