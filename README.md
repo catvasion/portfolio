@@ -12,7 +12,7 @@ This portfolio project showcases my skills and projects as a junior front-end de
 
 ## Installation 
 ```sh
-> npm install 
+> npm install --legacy-peer-deps
 ```
 ## Project Breakdown
 
