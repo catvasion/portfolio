@@ -7,6 +7,7 @@ import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import { FaArrowRight } from "react-icons/fa";
 
 const ProjectCard = ({
   index,
@@ -15,6 +16,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  gh_pages_link,
 }) => {
   return (
     <div className="flex lg:flex-row flex-col bg-black-100 rounded-xl shadow-xl md:max-w-[550px] md:min-w-[550px] lg:min-w-[70%] xl:min-w-[90%]lg:min-h-[400px] lg:flex lg:flex-row-reverse">
@@ -56,16 +58,24 @@ const ProjectCard = ({
               ))}
             </div>
           </div>
-          <div className="mt-6">
+          <div className="mt-6 flex flex-col items-center">
             <div
               onClick={() => window.open(source_code_link, "_blank")}
-              className=" black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              className="  w-10 h-10 rounded-full flex justify-center items-center cursor-pointer "
             >
               <img
                 src={github}
                 alt={github}
                 className="hover:opacity-40 active:opacity-30 transition-opacity duration-150"
               />
+            </div>
+
+            <div
+              onClick={() => window.open(gh_pages_link, "_blank")}
+              className="flex flex-row justify-space-between mt-4 items-center cursor-pointer hover:opacity-40 active:opacity-30 transition-opacity duration-150 text-white-100  "
+            >
+              <p className="flex mr-3">Live Demo</p>
+              <FaArrowRight />
             </div>
           </div>
         </div>
