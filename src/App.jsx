@@ -36,8 +36,11 @@ const App = () => {
             <HeroLoader progress={progress} />
           </div>
         ) : (
-          <div className="bg-hero-pattern-mobile bg-cover bg-top lg:bg-hero-pattern py-40 bg-center bg-no-repeat bg-fixed">
-            <Hero />
+          <div>
+            <div className="min-h-[100vh] bg-hero-pattern-mobile lg:bg-hero-pattern bg-cover bg-top  py-40 bg-center bg-no-repeat bg-fixed grayscale bg-filter"></div>
+            <div className="absolute top-[30%] bottom-[30%] right-0 left-0 h-fit">
+              <Hero />
+            </div>
           </div>
         )}
 

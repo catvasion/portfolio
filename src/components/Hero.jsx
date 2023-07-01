@@ -32,7 +32,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="flex flex-col justify-between w-full  mx-auto h-[50vh] lg:h-[80vh]">
+    <section className="flex flex-col justify-between w-full  mx-auto h-[60vh]">
       <div
         className={`${styles.paddingX}   max-w-7xl mx-auto flex flex-row items-start`}
       >
