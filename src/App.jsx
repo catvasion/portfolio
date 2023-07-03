@@ -20,16 +20,20 @@ const App = () => {
   const { progress } = useProgress();
 
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsLoading(false);
-    }, 1500);
+    const loadData = async () => {
+      // Simulate loading the necessary data
+      // Replace this with your actual loading logic
+      await new Promise((resolve) => setTimeout(resolve, 1500));
 
-    return () => clearTimeout(timer);
+      setIsLoading(false);
+    };
+
+    loadData();
   }, []);
 
   return (
     <BrowserRouter>
-      <div className="bg-primary ">
+      <div className="bg-primary">
         <Navbar />
         {isLoading ? (
           <div className="h-screen flex justify-center items-center">
@@ -37,6 +41,7 @@ const App = () => {
           </div>
         ) : (
           <div>
+            {/* Render the content once isLoading is false */}
             <div className="min-h-[100vh] bg-hero-pattern-mobile lg:bg-hero-pattern bg-cover bg-top  py-40 bg-center bg-no-repeat bg-fixed grayscale bg-filter"></div>
             <div className="absolute top-[30%] bottom-[30%] right-0 left-0 h-fit">
               <Hero />
