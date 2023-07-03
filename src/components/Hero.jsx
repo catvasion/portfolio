@@ -50,7 +50,7 @@ const Hero = () => {
         </div>
       </div>
       <div
-        className="w-full flex justify-center items-center"
+        className="w-full flex justify-center items-center mt-4"
         onMouseEnter={handleHoverStart}
         onMouseLeave={handleHoverEnd}
       >
