@@ -170,7 +170,7 @@ const projects = [
     gh_pages_link: `${import.meta.env.VITE_GH_PAGES_ENTREPRENEURIAL_HUB_URL}`,
   },
   {
-    name: "CINEVERSE",
+    name: "Cineverse",
     description:
       "Stay Connected To The Silver Screen: Find movies, TV shows, and video games effortlessly. Customize your experience with dark mode. Dive into the world of entertainment.",
     tags: [
