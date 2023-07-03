@@ -37,7 +37,7 @@ const ProjectCard = ({
           <img
             src={image}
             alt={name}
-            className="w-full  object-contain border border-gradient-black border-[20px] bg-secondary rounded-xl-secondary"
+            className="w-full object-contain border border-gradient-black border-[20px] bg-secondary rounded-xl-secondary"
           />
         </motion.div>
       </Tilt>
