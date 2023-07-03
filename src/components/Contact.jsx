@@ -62,10 +62,10 @@ const Contact = () => {
   };
 
   return (
-    <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
+    <div className="xl:mt-1 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className="flex-0.75 bg-primary p-8 rounded-2xl border-black"
+        className="flex-0.75 bg-primary p-10 rounded-2xl border-black"
       >
         <p className={`${styles.sectionSubText}`}>Get in touch</p>
         <h3 className={`${styles.sectionHeadText} text-black-100`}>Contact.</h3>
@@ -107,7 +107,7 @@ const Contact = () => {
               value={form.message}
               onChange={handleChange}
               placeholder="What do you want to say?"
-              className="bg-white-100 py-4 px-6 placeholder:text-gray text-black-300 rounded-lg outline-none border border-black-300 font-medium"
+              className="bg-white-100 py-4 px-6 placeholder:text-gray text-black-300 rounded-lg outline-none border border-black-300 font-medium h-[136px]"
             />
           </label>
           <button
