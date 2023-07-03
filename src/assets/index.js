@@ -15,6 +15,7 @@ import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import vite from "./tech/vite.png";
 import auxvivres from "./company/auxvivres.png";
 import starbucks from "./company/starbucks.png";
 import ikea from "./company/ikea.png";
@@ -42,6 +43,7 @@ export {
   typescript,
   threejs,
   chakra,
+  vite,
   auxvivres,
   starbucks,
   ikea,

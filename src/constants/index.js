@@ -20,6 +20,7 @@ import {
   github_nav,
   linkedin_white,
   linkedin,
+  vite,
 } from "../assets";
 
 export const NavLinks = [
@@ -73,6 +74,10 @@ const technologies = [
   {
     name: "git",
     icon: git,
+  },
+  {
+    name: "vite",
+    icon: vite,
   },
 ];
 
