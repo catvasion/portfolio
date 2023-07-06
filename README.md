@@ -33,7 +33,7 @@ This Front-End developer porfolio is built mobile first with react 18 and JSX. I
 │   │   ├── 📂 company/           # Company-related assets
 │   │   └── 📂 tech/              # Technology-related assets
 │   ├── 📂 components/            # Components
-│   │   ├── 📂 canvas/            # Canvas component
+│   │   ├── 📂 canvas/            # Canvas components
 │   ├── 📂 constants/             # Constant values and configurations
 │   ├── 📂 hoc/                   # Higher-order components
 │   ├── 📂 utils/                 # Utility functions and helpers
