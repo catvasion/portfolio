@@ -1,4 +1,4 @@
-# Front-End Dev Porfolio: Emily Dawson.
+# Personal Front-End Dev Portfolio
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -30,7 +30,7 @@ public/
 -stargate/ # -- credit to (stale_mud (https://sketchfab.com/stale_mud)
 src/ # source dir
 -assets/ # all public assets
--components/ # 
+-components/
 --canvas/ 
 -constants/
 -hoc/
@@ -44,7 +44,7 @@ This portfolio is divided into several sections to showcase my work and skills:
 #### Home: 
 Welcome to my home page where I have links to sections in my porfolio and social links to where you can contact me.
 #### Skills: 
-Discover the programming languages, frameworks, and tools I am proficient in.
+Discover the programming languages, frameworks, and tools I am knowledgeable in.
 #### Projects: 
 Explore the projects I have worked on, including descriptions, screenshots, and links to live demos or repositories.
 #### Experience: 
