@@ -26,17 +26,17 @@ This Front-End developer porfolio is built mobile first with react 18 and JSX. I
 
 ### Project Structure:
 ``` sh
-├── public/                    # Public directory
+├── 📂 public/                    # Public directory
 │   └── stargate/              # Stargate asset credit to stale_mud (https://sketchfab.com/stale_mud)
-├── src/                       # Source directory
-│   ├── assets/                # All public assets
+├── 📂 src/                       # Source directory
+│   ├── 📂 assets/                # All public assets
 │   │   ├── company/           # Company-related assets
 │   │   └── tech/              # Technology-related assets
-│   ├── components/            # Components
-│   │   ├── canvas/            # Canvas component
-│   ├── constants/             # Constant values and configurations
-│   ├── hoc/                   # Higher-order components
-│   ├── utils/                 # Utility functions and helpers
+│   ├── 📂 components/            # Components
+│   │   ├── 📂 canvas/            # Canvas component
+│   ├── 📂 constants/             # Constant values and configurations
+│   ├── 📂 hoc/                   # Higher-order components
+│   ├── 📂 utils/                 # Utility functions and helpers
 │   ├── App.jsx                # Main application component
 │   ├── index.css              # Global styles
 │   ├── main.jsx               # Entry point of the application
