@@ -18,25 +18,32 @@ Thank you for visiting my portfolio project, and I look forward to connecting wi
 
 ## Installation 
 ```sh
-> npm install --legacy-peer-deps
+> npm install
 ```
 ## Project Breakdown
 
 This Front-End developer porfolio is built mobile first with react 18 and JSX. It uses tailwind for styling, Three.js for 3d animations and EmailJS for sending emails.
 
 ### Project Structure:
-```sh
-public/
--stargate/ # -- credit to (stale_mud (https://sketchfab.com/stale_mud)
-src/ # source dir
--assets/ # all public assets
--components/
---canvas/ 
--constants/
--hoc/
--utils/
+``` sh
+├── public/                    # Public directory
+│   └── stargate/              # Stargate asset credit to stale_mud (https://sketchfab.com/stale_mud)
+├── src/                       # Source directory
+│   ├── assets/                # All public assets
+│   │   ├── company/           # Company-related assets
+│   │   └── tech/              # Technology-related assets
+│   ├── components/            # Components
+│   │   ├── canvas/            # Canvas component
+│   ├── constants/             # Constant values and configurations
+│   ├── hoc/                   # Higher-order components
+│   ├── utils/                 # Utility functions and helpers
+│   ├── App.jsx                # Main application component
+│   ├── index.css              # Global styles
+│   ├── main.jsx               # Entry point of the application
+│   ├── styles.js              # Styled components styles
+│   └── index.html             # HTML template for the application
+└── README.md                  # Project documentation
 ```
-
 ### Sections:
 
 This portfolio is divided into several sections to showcase my work and skills:
@@ -58,11 +65,11 @@ Get in touch with me through email or connect with me on social media platforms.
 
 
 ### Model Information:
- #### title:	Stargate
+ #### Title:	Stargate
 * source:	https://sketchfab.com/3d-models/stargate-1af03ae28595490aa11ce3ba07b1e23f
 * author:	stale_mud (https://sketchfab.com/stale_mud)
 
-### Model License:
+#### Model License:
 * license type:	CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
 * requirements:	Author must be credited. No commercial use. Modified versions must have the same license.
 
