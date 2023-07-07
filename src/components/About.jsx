@@ -21,25 +21,26 @@ const About = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          I'm an enthusiastic and self-taught front-end developer with a strong
-          foundation in pure and applied sciences. Recently, I completed a
-          comprehensive front-end development certificate through Coursera,
-          gaining expertise in JavaScript, HTML, CSS, and React. I also have
-          experience working with TypeScript and popular React libraries such as
-          Chakra UI and Three.js.
+          I'm a passionate self-taught front-end developer with a foundation in
+          pure and applied sciences. I recently completed a comprehensive
+          front-end development certificate through Coursera, gaining expertise
+          in JavaScript, HTML, CSS, and React. I have experience working with
+          TypeScript and popular React libraries like Chakra UI and Three.js.
           <br />
           <br />
-          My passion for coding has driven me to embark on a journey of
-          self-learning and project-based experience. Through various personal
-          projects, I have honed my skills in building responsive and visually
-          appealing web applications. I thrive on tackling challenging problems
-          and leveraging my creativity to deliver intuitive user experiences.
+          Growing up in Montreal, I spent a lot of my time snowboarding and
+          cycling. I've always enjoyed for problem-solving, whether it's
+          tinkering around the house or resolving issues with my car. I have
+          always had a fascination with the sciences, especially physics. It was
+          through the guidance of a friend that I discovered website
+          development, and I've been captivated ever since.
           <br />
-          <br />I am now eager to join a forward-thinking team where I can
-          contribute to innovative projects, continuously learn new tech skills,
-          embrace exciting challenges, and grow as a developer. It is important
-          to me to be part of a supportive culture that encourages personal and
-          professional development.
+          <br />
+          I'm enthusiastic about joining a forward-thinking team, where I can
+          contribute to innovative projects, continuously expand my technical
+          skills, and embrace exciting challenges. Being part of a supportive
+          culture that fosters personal and professional growth is of great
+          importance to me.
         </motion.p>
       </div>
 
