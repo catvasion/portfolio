@@ -1,8 +1,8 @@
 # Personal Front-End Dev Portfolio
 
-<p align="center">
-  <img src="" alt="preview" >  
-</p>
+<div align="center">
+  <img src="https://drive.google.com/uc?export=view&id=1on8sXOkyyQL8e9ujhim3wYG5VjGVBCVF" height="300px">  
+</div>
 
 <div align="center">
   <a href="https://catvasion.github.io/portfolio/"> Live demo</a>
