@@ -1,11 +1,11 @@
 # Personal Front-End Dev Portfolio
 
 <p align="center">
-  <img src="https://drive.google.com/file/d/1on8sXOkyyQL8e9ujhim3wYG5VjGVBCVF" alt="preview" >  
+  <img src="" alt="preview" >  
 </p>
 
 <div align="center">
-  <a href="https://catvasion.github.io/entrepreneurial-hub/"> Live demo</a>
+  <a href="https://catvasion.github.io/portfolio/"> Live demo</a>
 </div>
 
 ## Table of Contents
