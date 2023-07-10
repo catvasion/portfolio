@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import Tilt from "react-parallax-tilt";
 
 import { motion } from "framer-motion";
@@ -18,34 +19,61 @@ const ProjectCard = ({
   source_code_link,
   gh_pages_link,
 }) => {
+  const [tiltEnabled, setTiltEnabled] = useState(true);
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth > 1280) {
+        setTiltEnabled(true);
+      } else {
+        setTiltEnabled(false);
+      }
+    };
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
   return (
-    <div className="flex lg:flex-row flex-col bg-black-100 rounded-xl shadow-xl md:max-w-[550px] md:min-w-[550px] lg:min-w-[70%] xl:min-w-[90%]lg:min-h-[400px] lg:flex lg:flex-row-reverse">
-      <Tilt
-        options={{
-          reverse: true,
-          max: 190,
-          scale: 1,
-          speed: 450,
-        }}
-        className="flex items-center flex-3"
-      >
-        <motion.div
-          whileHover={{ scale: 1.25 }}
-          whileTap={{ scale: 0.95 }}
-          className="rounded-xl overflow-hidden "
+    <div className="flex lg:flex-row flex-col bg-black-100 rounded-xl shadow-xl md:max-w-[550px] md:min-w-[550px] lg:min-w-[90%] lg:min-h-[400px] lg:flex lg:flex-row-reverse">
+      {tiltEnabled ? (
+        <Tilt
+          options={{
+            max: 190,
+            scale: 1,
+            speed: 450,
+          }}
+          className="flex items-center flex-3 "
         >
-          <img
-            src={image}
-            alt={name}
-            className="w-full object-contain border border-gradient-black border-[20px] bg-secondary rounded-xl-secondary"
-          />
-        </motion.div>
-      </Tilt>
+          <motion.div
+            whileHover={{ scale: 1.1 }}
+            className="rounded-xl overflow-hidden"
+          >
+            <img
+              src={image}
+              alt={name}
+              className="w-full object-contain border border-gradient-black border-[20px] bg-secondary rounded-xl-secondary"
+              style={{ imageRendering: "auto" }}
+            />
+          </motion.div>
+        </Tilt>
+      ) : (
+        <div className="flex items-center flex-3 ">
+          <div className="rounded-xl overflow-hidden">
+            <img
+              src={image}
+              alt={name}
+              className="w-full object-contain border border-gradient-black border-[20px] bg-secondary rounded-xl-secondary"
+            />
+          </div>
+        </div>
+      )}
 
       <div className="items-center flex flex-2 lg:max-w-[30%]">
         <div className="bg-secondary bg-opacity-50 m-5 rounded-xl p-3 flex flex-col items-center">
           <div>
-            <div className="mt-5">
+            <div>
               <h3 className="text-white-100 font-bold text-[24px]">{name}</h3>
 
               <p className="text-primary text-[14px] mt-4">{description}</p>
