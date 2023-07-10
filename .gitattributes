@@ -1,0 +1,2 @@
+public/stargate filter=lfs diff=lfs merge=lfs -text
+public/stargate/textures/ filter=lfs diff=lfs merge=lfs -text
