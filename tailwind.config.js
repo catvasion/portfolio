@@ -36,9 +36,9 @@ module.exports = {
         card: "0px 35px 320px -15px #211e35",
       },
       backgroundImage: {
-        "hero-pattern": "url('/src/assets/disaster.jpg')",
-        "hero-pattern-medium": "url('/src/assets/disaster_md.jpg')",
-        "hero-pattern-mobile": "url('/src/assets/disaster_md.jpg')",
+        "hero-pattern": "url('/public/disaster.jpg')",
+        "hero-pattern-medium": "url('/public/disaster_md.jpg')",
+        "hero-pattern-mobile": "url('/public/disaster_md.jpg')",
       },
       animation: {
         "conveyor-belt": "conveyor-belt 20s linear infinite",
