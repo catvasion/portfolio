@@ -18,7 +18,7 @@
 ## Introduction
 Welcome to my front-end portfolio project! Created with Vite React and styled using Tailwind CSS, this interactive showcase highlights my abilities as a junior front-end developer.
 
-I specialize in HTML, CSS, JavaScript, and TypeScript, with experience in frameworks like React and libraries such as Three.js, Chakra UI, and Tailwind. My portfolio features a collection of my best projects, demonstrating creativity, problem-solving skills, and attention to detail.
+I specialise in HTML, CSS, JavaScript, and TypeScript, with experience in frameworks like React and libraries such as Three.js, Chakra UI, and Tailwind. My portfolio features a collection of my best projects, demonstrating creativity, problem-solving skills, and attention to detail.
 
 Whether you're interested in reviewing my work or exploring collaboration opportunities, this portfolio provides a concise overview of my capabilities. Feel free to browse the projects and reach out using the provided contact information.
 
@@ -30,7 +30,7 @@ Thank you for visiting my portfolio project, and I look forward to connecting wi
 ```
 ## Project Breakdown
 
-This Front-End developer porfolio is built mobile first with react 18 and JSX. It uses tailwind for styling, Three.js for 3d animations and EmailJS for sending emails.
+This Front-End developer portfolio is built mobile first with react 18 and JSX. It uses tailwind for styling, Three.js for 3d animations and EmailJS for sending emails.
 
 ### Project Structure:
 ``` sh
@@ -57,7 +57,7 @@ This Front-End developer porfolio is built mobile first with react 18 and JSX. I
 This portfolio is divided into several sections to showcase my work and skills:
 
 #### Home: 
-Welcome to my home page where I have links to sections in my porfolio and social links to where you can contact me.
+Welcome to my home page where I have links to sections in my portfolio and social links to where you can contact me.
 #### Skills: 
 Discover the programming languages, frameworks, and tools I am knowledgeable in.
 #### Projects: 
@@ -84,5 +84,5 @@ Get in touch with me through email or connect with me on social media platforms.
 
 ## Acknowledgements
 
-Guidance for stucture and ideas from (https://github.com/adrianhajdin/project_3D_developer_portfolio), thank you!
+Guidance for structure and ideas from (https://github.com/adrianhajdin/project_3D_developer_portfolio), thank you!
 
