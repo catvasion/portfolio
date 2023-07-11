@@ -106,9 +106,9 @@ const experiences = [
     points: [
       "Ensured safe and efficient movement of goods within a high-volume warehouse.",
       "Recorded and tracked shipments using warehouse database systems.",
-      "Collaborated with team members to unload trucks and optimize storage space.",
+      "Collaborated with team members to unload lorries and optimise storage space.",
       "Resolved inventory discrepancies and maintained accurate stock levels.",
-      "Maintained a zero-accident record, prioritizing safety at all times.",
+      "Maintained a zero-accident record, prioritising safety at all times.",
     ],
   },
   {
@@ -118,8 +118,8 @@ const experiences = [
     iconBg: "#00817B",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Managed classes of up to 20 students, providing instruction and guidance in skateboarding techniques.",
-      "Developed individualized course plans tailored to each student's skill level and goals.",
+      "Managed classes up to 20 students, providing instruction and guidance in skateboarding techniques.",
+      "Developed individualised course plans tailored to each student's skill level and goals.",
       "Worked with high-school students in alternative learning streams, fostering a supportive and inclusive learning environment.",
       "Ensured the safety and well-being of students by creating a safe and welcoming environment.",
       "Handled administrative tasks such as accurately booking and following up with client appointments and producing receipts.",
@@ -134,9 +134,9 @@ const experiences = [
     points: [
       "Fostered a positive work environment by enhancing employee performance and satisfaction through coaching, encouragement, and recognition.",
       "Proactively problem-solved and resolved issues during shifts, ensuring a smooth and enjoyable customer experience.",
-      "Managed inventory efficiently, ensuring optimal stock levels and minimizing shortages or excesses.",
+      "Managed inventory efficiently, ensuring optimal stock levels and minimising shortages or excesses.",
       "Demonstrated exceptional customer service skills, resolving a wide range of issues promptly and thoughtfully to ensure customer satisfaction.",
-      "Organized inventory and utilized various technologies to streamline operations and maintain accurate records.",
+      "Organised inventory and utilised various technologies to streamline operations and maintain accurate records.",
     ],
   },
   {
@@ -147,8 +147,8 @@ const experiences = [
     date: "Sept 2018 - Aug 2019",
     points: [
       "Proactively addressed and resolved challenges during shifts to maintain a smooth operation.",
-      "Implemented effective inventory strategies to optimize stock levels and ensure timely product availability.",
-      "Utilized Excel for accurate data entry and maintenance of inventory records.",
+      "Implemented effective inventory strategies to optimise stock levels and ensure timely product availability.",
+      "Utilised Excel for accurate data entry and maintenance of inventory records.",
       "Created streamlined procedures to enhance operational efficiency and productivity.",
       "Effectively resolved customer service issues, ensuring customer satisfaction and loyalty.",
     ],
@@ -177,7 +177,7 @@ const projects = [
   {
     name: "Cineverse",
     description:
-      "Stay Connected To The Silver Screen: Find movies, TV shows, and video games effortlessly. Customize your experience with dark mode. Dive into the world of entertainment.",
+      "Stay Connected To The Silver Screen: Find movies, TV shows, and video games effortlessly. Customise your experience with dark mode. Dive into the world of entertainment.",
     tags: [
       {
         name: "react",
