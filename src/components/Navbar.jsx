@@ -47,7 +47,7 @@ const Navbar = () => {
                 hover:text-white-100 text-secondary transition duration-100 ease-in-out text-[18px] font-medium cursor-pointer flex`}
             >
               Emily &nbsp; Dawson &nbsp;
-              <span className="md:block hidden">| &nbsp; Porfolio</span>
+              <span className="md:block hidden">| &nbsp; Portfolio</span>
             </p>
           </Link>
         </div>
