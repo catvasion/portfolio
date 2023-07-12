@@ -12,6 +12,31 @@
   scroll-behavior: smooth;
   color-scheme: dark;
 }
+.imageDiv {
+  background: url("/public/disaster.jpg") center top no-repeat fixed;
+  background-size: cover;
+}
+
+@supports (-webkit-touch-callout: none) {
+  .imageDiv {
+    background: url("/public/disaster.jpg") center top no-repeat scroll;
+    background-size: auto 100vh;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .imageDiv {
+    background: url("/public/disaster_md.jpg") center top no-repeat fixed;
+    background-size: cover;
+  }
+
+  @supports (-webkit-touch-callout: none) {
+    .imageDiv {
+      background: url("/public/disaster_md.jpg") center top no-repeat scroll;
+      background-size: auto 100vh;
+    }
+  }
+}
 
 .hash-span {
   margin-top: -100px;
