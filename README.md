@@ -30,7 +30,7 @@ Thank you for visiting my portfolio project, and I look forward to connecting wi
 ```
 ## Project Breakdown
 
-This Front-End developer portfolio is built mobile first with react 18 and JSX. It uses tailwind for styling, Three.js for 3d animations and EmailJS for sending emails.
+This Front-End developer portfolio is built mobile first with react 18 and JSX. It uses tailwind for styling, three.js for 3d animations and EmailJS for sending emails.
 
 ### Project Structure:
 ``` sh
