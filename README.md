@@ -16,9 +16,9 @@
 - [Acknowledgements](#acknowledgements)
 
 ## Introduction
-Welcome to my front-end portfolio project! Created with Vite React and styled using Tailwind CSS, this interactive showcase highlights my abilities as a junior front-end developer.
+Welcome to my front-end portfolio project! Created with Vite React, three.js and styled using Tailwind CSS, this interactive showcase highlights my abilities as a junior front-end developer.
 
-I specialise in HTML, CSS, JavaScript, and TypeScript, with experience in frameworks like React and libraries such as Three.js, Chakra UI, and Tailwind. My portfolio features a collection of my best projects, demonstrating creativity, problem-solving skills, and attention to detail.
+I specialise in HTML, CSS, JavaScript, and TypeScript, with experience in frameworks like React and libraries such as Chakra UI, and Tailwind. My portfolio features a collection of my best projects, demonstrating creativity, problem-solving skills, and attention to detail.
 
 Whether you're interested in reviewing my work or exploring collaboration opportunities, this portfolio provides a concise overview of my capabilities. Feel free to browse the projects and reach out using the provided contact information.
 
