@@ -35,20 +35,6 @@ module.exports = {
       boxShadow: {
         card: "0px 35px 320px -15px #211e35",
       },
-      backgroundImage: {
-        "hero-pattern": "url('/public/disaster.jpg')",
-        "hero-pattern-medium": "url('/public/disaster_md.jpg')",
-        "hero-pattern-mobile": "url('/public/disaster_md.jpg')",
-      },
-      animation: {
-        "conveyor-belt": "conveyor-belt 20s linear infinite",
-      },
-      keyframes: {
-        "conveyor-belt": {
-          "0%": { transform: "translateX(100%)" },
-          "100%": { transform: "translateX(-100%)" },
-        },
-      },
     },
   },
   plugins: [],
