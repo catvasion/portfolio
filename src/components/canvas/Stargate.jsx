@@ -49,7 +49,7 @@ const StargateCanvas = () => {
 
   return (
     <Canvas
-      style={{ touchAction: "pan-y" }}
+      className="canvas"
       shadows
       frameloop={shouldRender ? "demand" : undefined}
       gl={{ preserveDrawingBuffer: false }}
