@@ -12,9 +12,16 @@
   scroll-behavior: smooth;
   color-scheme: dark;
 }
+
 .imageDiv {
   background: url("/public/disaster.jpg") center top no-repeat fixed;
   background-size: cover;
+  -webkit-overflow-scrolling: touch;
+  overflow-y: auto;
+
+  overflow: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
 }
 
 @supports (-webkit-touch-callout: none) {
@@ -34,6 +41,10 @@
     .imageDiv {
       background: url("/public/disaster_md.jpg") center top no-repeat scroll;
       background-size: auto 100vh;
+      -webkit-overflow-scrolling: touch;
+      -webkit-transform: translateZ(0);
+      overflow: auto;
+      overscroll-behavior: contain;
     }
   }
 }
