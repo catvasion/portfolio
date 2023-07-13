@@ -1,4 +1,4 @@
-import { Suspense, useState, useEffect } from "react";
+import React, { Suspense, useState, useEffect } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
@@ -49,6 +49,7 @@ const StargateCanvas = () => {
 
   return (
     <Canvas
+      style={{ touchAction: "pan-y" }}
       shadows
       frameloop={shouldRender ? "demand" : undefined}
       gl={{ preserveDrawingBuffer: false }}

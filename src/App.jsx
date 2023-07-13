@@ -11,7 +11,6 @@ import {
   Tech,
   Works,
   StarsCanvas,
-  Header,
   HeroLoader,
 } from "./components";
 
@@ -42,7 +41,7 @@ const App = () => {
         ) : (
           <div>
             {/* Render the content once isLoading is false */}
-            <div className="imageDiv min-h-[100vh] py-40  grayscale bg-filter"></div>
+            <div className="imageDiv min-h-[100vh] grayscale bg-filter"></div>
             <div className="absolute top-[30%] bottom-[30%] right-0 left-0 h-fit">
               <Hero />
             </div>
