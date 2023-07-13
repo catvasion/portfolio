@@ -49,6 +49,10 @@
   }
 }
 
+.canvas {
+  touch-action: auto !important;
+}
+
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;
