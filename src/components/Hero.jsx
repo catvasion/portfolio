@@ -44,7 +44,7 @@ const Hero = () => {
             </h1>
             <p className={`${styles.heroSubText} mb-6 text-white-100`}>
               I am a London based <br className="sm: block hidden" />
-              front-end developer specialised in React.
+              full stack developer specialised in React.
             </p>
           </div>
         </div>
