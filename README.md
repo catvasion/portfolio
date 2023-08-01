@@ -1,4 +1,4 @@
-# Personal Front-End Dev Portfolio
+# Personal Full Stack Dev Portfolio
 
 <div align="center">
   <img src="https://drive.google.com/uc?export=view&id=1on8sXOkyyQL8e9ujhim3wYG5VjGVBCVF" height="300px">  
@@ -16,9 +16,9 @@
 - [Acknowledgements](#acknowledgements)
 
 ## Introduction
-Welcome to my front-end portfolio project! Created with Vite React, three.js and styled using Tailwind CSS, this interactive showcase highlights my abilities as a junior front-end developer.
+Welcome to my portfolio project! Created with Vite React, three.js and styled using Tailwind CSS, this interactive showcase highlights my abilities as a full stack developer.
 
-I specialise in HTML, CSS, JavaScript, and TypeScript, with experience in frameworks like React and libraries such as Chakra UI, and Tailwind. My portfolio features a collection of my best projects, demonstrating creativity, problem-solving skills, and attention to detail.
+I specialise in HTML, CSS, JavaScript, TypeScript, and Python, with experience in frameworks like React and libraries such as Chakra UI, and Tailwind. My portfolio features a collection of my best projects, demonstrating creativity, problem-solving skills, and attention to detail.
 
 Whether you're interested in reviewing my work or exploring collaboration opportunities, this portfolio provides a concise overview of my capabilities. Feel free to browse the projects and reach out using the provided contact information.
 
@@ -30,7 +30,7 @@ Thank you for visiting my portfolio project, and I look forward to connecting wi
 ```
 ## Project Breakdown
 
-This Front-End developer portfolio is built mobile first with react 18 and JSX. It uses tailwind for styling, three.js for 3d animations and EmailJS for sending emails.
+This full stack developer portfolio is built mobile first with react 18 and JSX. It uses tailwind for styling, three.js for 3d animations and EmailJS for sending emails.
 
 ### Project Structure:
 ``` sh
