@@ -21,19 +21,19 @@ const About = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          I'm a passionate self-taught front-end developer with a foundation in
+          I'm a passionate self-taught full stack developer with a foundation in
           pure and applied sciences. I recently completed a comprehensive
           front-end development certificate through Coursera, gaining expertise
           in JavaScript, HTML, CSS, and React. I have experience working with
-          TypeScript and popular React libraries like Chakra UI and Three.js.
+          TypeScript, Python and popular React libraries like Chakra UI and Three.js.
           <br />
           <br />
           Growing up in Montreal, I spent a lot of my time snowboarding and
-          cycling. I've always enjoyed for problem-solving, whether it's
-          tinkering around the house or resolving issues with my car. I have
-          always had a fascination with the sciences, especially physics. It was
-          through the guidance of a friend that I discovered website
-          development, and I've been captivated ever since.
+          cycling. I've always enjoyed problem-solving, whether it's tinkering
+          around the house or resolving issues with my car. I have always had a
+          fascination with the sciences, especially physics. It was through the
+          guidance of a friend that I discovered website development, and I've
+          been captivated ever since.
           <br />
           <br />
           I'm enthusiastic about joining a forward-thinking team, where I can

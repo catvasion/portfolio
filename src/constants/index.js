@@ -6,6 +6,7 @@ import {
   reactjs,
   tailwind,
   git,
+  python,
   auxvivres,
   ikea,
   starbucks,
@@ -58,6 +59,10 @@ const technologies = [
   {
     name: "React JS",
     icon: reactjs,
+  },
+  {
+    name: "python",
+    icon: python,
   },
   {
     name: "Tailwind CSS",
