@@ -9,6 +9,7 @@ import {
 	python,
 	auxvivres,
 	ikea,
+	goodchange,
 	starbucks,
 	helmet,
 	gandalf,
@@ -23,7 +24,9 @@ import {
 	linkedin_white,
 	linkedin,
 	vite,
-} from '../assets';
+	nextjs,
+	netlify,
+} from '../assets'
 
 export const NavLinks = [
 	{
@@ -38,9 +41,25 @@ export const NavLinks = [
 		id: 'contact',
 		title: 'Contact',
 	},
-];
+]
 
 const technologies = [
+	{
+		name: 'TypeScript',
+		icon: typescript,
+	},
+	{
+		name: 'JavaScript',
+		icon: javascript,
+	},
+	{
+		name: 'next js',
+		icon: nextjs,
+	},
+	{
+		name: 'React JS',
+		icon: reactjs,
+	},
 	{
 		name: 'HTML 5',
 		icon: html,
@@ -49,21 +68,15 @@ const technologies = [
 		name: 'CSS 3',
 		icon: css,
 	},
+
+	// {
+	// 	name: 'python',
+	// 	icon: python,
+	// },
+
 	{
-		name: 'JavaScript',
-		icon: javascript,
-	},
-	{
-		name: 'TypeScript',
-		icon: typescript,
-	},
-	{
-		name: 'React JS',
-		icon: reactjs,
-	},
-	{
-		name: 'python',
-		icon: python,
+		name: 'netlify',
+		icon: netlify,
 	},
 	{
 		name: 'Tailwind CSS',
@@ -85,7 +98,7 @@ const technologies = [
 		name: 'vite',
 		icon: vite,
 	},
-];
+]
 
 const socials = [
 	{
@@ -100,9 +113,40 @@ const socials = [
 		company: 'Github',
 		url: `${import.meta.env.VITE_GITHUB_URL}`,
 	},
-];
+]
 
 const experiences = [
+	{
+		title: 'Full stack software engineer (contract)',
+		company_name: 'GoodChange | Fintech',
+		mainStack:
+			'Next.js 14, TypesScript, Netlify, Plaid, Moov.io, Tailwind CSS, React Query, Bubble.io.',
+		icon: goodchange,
+		iconBg: '#ffffff',
+		date: 'Nov 2023 - Present',
+		points: [
+			'Developed complex TypeScript backend endpoints on Netlify, leveraging AWS infrastructure for large-scale data processing and report generation.',
+			'Implemented custom features and filtering options for optimised performance and user experience.',
+			'Designed the front-end architecture, implementing extensive routing and iframe integration.',
+			'Recognised for problem-solving abilities and contributions to issue resolution.',
+			'Promoted to Full Stack Software Engineer within two months for dedication and contributions.',
+		],
+	},
+	{
+		title: 'Front-end developer Internship',
+		company_name: 'GoodChange | Fintech',
+		mainStack:
+			'Next.js 14, TypesScript, Tailwind CSS, Netlify, React Query, Bubble.io.',
+		icon: goodchange,
+		iconBg: '#ffffff',
+		date: 'Oct 2023 - Nov 2023',
+		points: [
+			'Architected and implemented a scalable project structure, ensuring optimal performance and security.',
+			'Collaborated closely with cross-functional teams, aiding in task organisation on Asana and conducting research to support decision-making processes.',
+			'Actively participated in virtual meetings and Slack discussions, seeking guidance from senior team members to address technical challenges and refine implementation strategies.',
+			'Played a supportive role in the implementation of a new system for backend request organisation, assisting with style duplication efforts while prioritising scalability and minimising technical debt.',
+		],
+	},
 	{
 		title: 'Logistics Operations Specialist',
 		company_name: 'IKEA',
@@ -159,7 +203,7 @@ const experiences = [
 			'Effectively resolved customer service issues, ensuring customer satisfaction and loyalty.',
 		],
 	},
-];
+]
 
 const projects = [
 	{
@@ -219,6 +263,6 @@ const projects = [
 	//   image: luckyshrub,
 	//   source_code_link: `${process.env.}`,
 	// },
-];
+]
 
-export { technologies, socials, experiences, projects };
+export { technologies, socials, experiences, projects }
